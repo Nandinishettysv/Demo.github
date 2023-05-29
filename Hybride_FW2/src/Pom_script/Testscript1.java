@@ -22,7 +22,7 @@ public class Testscript1 extends Base_test {
 		p.login();
 		//Assert.fail();
 	}
-	//@DataProvider(name="testdata")
+	@DataProvider(name="testdata")
 //public Object[][] createData(){
 //		return new Object[][] {
 	//		{"Nandini","1234"},
